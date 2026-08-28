@@ -56,7 +56,7 @@ export default async function handler(req, res) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'LIIN Brazil <site@liinbrazil.org>',
+      from: 'LIIN Brazil <onboarding@resend.dev>',
         to: [process.env.CONTATO_DESTINO || 'kurt@liinbrazil.org'],
         reply_to: b.email,
         subject: `Filiação — ${b.instituicao} (${b.tipo})`,
