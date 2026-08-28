@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="tq dq">
+<title id="tq">Passarela institucional</title><desc id="dq">Corredor coberto em perspectiva, com nervuras de cobertura e envidraçamento lateral.</desc>
+<defs><linearGradient id="gq" x1="1" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#151A24"/><stop offset=".55" stop-color="#3A1830"/><stop offset="1" stop-color="#5B1338"/></linearGradient></defs>
+<style>
+.l{fill:none;stroke:#fff;stroke-opacity:.26;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.lf{fill:none;stroke:#fff;stroke-opacity:.13;stroke-width:1.4;stroke-linecap:round}
+.lx{fill:none;stroke:#fff;stroke-opacity:.07;stroke-width:1.2}
+.sf{fill:#fff;fill-opacity:.04}
+.m{fill:none;stroke:#D6006E;stroke-width:3;stroke-linecap:round}
+.mf{fill:#D6006E;fill-opacity:.85}
+</style>
+<rect width="2100" height="900" fill="url(#gq)"/>
+
+<path class="l" d="M60 146 L1560 438"/>
+<path class="l" d="M60 792 L1560 438"/>
+<path class="l" d="M60 146 L60 792"/>
+<path class="lf" d="M60 146 L60 792"/>
+<path class="lx" d="M260 185 L260 745"/>
+<path class="lf" d="M433 219 L433 704"/>
+<path class="m" d="M582 248 L582 669"/>
+<path class="lf" d="M713 273 L713 638"/>
+<path class="lx" d="M825 295 L825 611"/>
+<path class="lf" d="M923 314 L923 588"/>
+<path class="lx" d="M1008 330 L1008 568"/>
+<path class="lf" d="M1081 345 L1081 551"/>
+<path class="lx" d="M1145 357 L1145 536"/>
+<path class="lf" d="M1200 368 L1200 523"/>
+<path class="lx" d="M1248 377 L1248 512"/>
+<path class="lf" d="M1289 385 L1289 502"/>
+<path class="lx" d="M1325 392 L1325 493"/>
+<path class="lf" d="M1357 398 L1357 486"/>
+<path class="lx" d="M60 792 L1560 438"/>
+<path class="lx" d="M60 792 L1560 438"/>
+<path class="lx" d="M60 792 L1560 438"/>
+<path class="lx" d="M60 792 L1560 438"/>
+<path class="lf" d="M60 660 L1560 438"/>
+<path class="lf" d="M60 300 L1560 438"/>
+<circle class="mf" cx="1560" cy="438" r="8"/>
+<circle cx="1560" cy="438" r="30" fill="#D6006E" fill-opacity=".12"/>
+</svg>

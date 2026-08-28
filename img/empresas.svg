@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t4 d4">
+<title id="t4">Empresas privadas</title><desc id="d4">Terminal portuário com pórticos de contêiner, pilhas de carga e casco de navio.</desc>
+<defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#241C2A"/><stop offset=".55" stop-color="#6D1547"/><stop offset="1" stop-color="#B3195A"/>
+</linearGradient></defs>
+<style>
+.l{fill:none;stroke:#fff;stroke-opacity:.30;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}
+.lf{fill:none;stroke:#fff;stroke-opacity:.17;stroke-width:1.2;stroke-linecap:round}
+.sf{fill:#fff;fill-opacity:.055}
+.m{fill:none;stroke:#D6006E;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.mf{fill:#D6006E;fill-opacity:.9}
+.tick{stroke:#fff;stroke-opacity:.20;stroke-width:1.2}
+</style>
+<rect width="800" height="600" fill="url(#g4)"/>
+
+<line class="lf" x1="60" y1="120" x2="740" y2="120" stroke-opacity=".055"/>
+<line class="lf" x1="60" y1="182" x2="740" y2="182" stroke-opacity=".055"/>
+<line class="lf" x1="60" y1="244" x2="740" y2="244" stroke-opacity=".055"/>
+<line class="lf" x1="60" y1="306" x2="740" y2="306" stroke-opacity=".055"/>
+<line class="lf" x1="60" y1="368" x2="740" y2="368" stroke-opacity=".055"/>
+<line class="lf" x1="60" y1="430" x2="740" y2="430" stroke-opacity=".055"/>
+<path class="l" d="M96 470 L112 250 M188 470 L172 250"/>
+<path class="l" d="M112 250 L172 250"/>
+<path class="l" d="M90 224 L296 224"/>
+<path class="l" d="M112 250 L112 224 M172 250 L172 224"/>
+<path class="l" d="M142 224 L142 176 L272 224"/>
+<path class="lf" d="M256 224 L256 302"/>
+<rect class="sf" x="238" y="302" width="36" height="20"/>
+<rect class="l" x="238" y="302" width="36" height="20"/>
+<rect class="l" x="86" y="456" width="20" height="14"/>
+<rect class="l" x="178" y="456" width="20" height="14"/>
+<path class="m" d="M330 470 L346 226 M422 470 L406 226"/>
+<path class="m" d="M346 226 L406 226"/>
+<path class="m" d="M324 200 L530 200"/>
+<path class="m" d="M346 226 L346 200 M406 226 L406 200"/>
+<path class="m" d="M376 200 L376 152 L506 200"/>
+<path class="lf" d="M490 200 L490 278"/>
+<rect class="mf" x="472" y="278" width="36" height="20"/>
+<rect class="l" x="320" y="456" width="20" height="14"/>
+<rect class="l" x="412" y="456" width="20" height="14"/>
+<rect class="sf" x="560" y="448" width="34" height="20"/>
+<rect class="l" x="560" y="448" width="34" height="20"/>
+<line class="lf" x1="571" y1="452" x2="571" y2="464"/>
+<line class="lf" x1="583" y1="452" x2="583" y2="464"/>
+<rect class="sf" x="598" y="448" width="34" height="20"/>
+<rect class="l" x="598" y="448" width="34" height="20"/>
+<line class="lf" x1="609" y1="452" x2="609" y2="464"/>
+<line class="lf" x1="621" y1="452" x2="621" y2="464"/>
+<rect class="sf" x="636" y="448" width="34" height="20"/>
+<rect class="l" x="636" y="448" width="34" height="20"/>
+<line class="lf" x1="647" y1="452" x2="647" y2="464"/>
+<line class="lf" x1="659" y1="452" x2="659" y2="464"/>
+<rect class="sf" x="674" y="448" width="34" height="20"/>
+<rect class="l" x="674" y="448" width="34" height="20"/>
+<line class="lf" x1="685" y1="452" x2="685" y2="464"/>
+<line class="lf" x1="697" y1="452" x2="697" y2="464"/>
+<rect class="sf" x="712" y="448" width="34" height="20"/>
+<rect class="l" x="712" y="448" width="34" height="20"/>
+<line class="lf" x1="723" y1="452" x2="723" y2="464"/>
+<line class="lf" x1="735" y1="452" x2="735" y2="464"/>
+<rect class="sf" x="560" y="426" width="34" height="20"/>
+<rect class="l" x="560" y="426" width="34" height="20"/>
+<line class="lf" x1="571" y1="430" x2="571" y2="442"/>
+<line class="lf" x1="583" y1="430" x2="583" y2="442"/>
+<rect class="sf" x="598" y="426" width="34" height="20"/>
+<rect class="l" x="598" y="426" width="34" height="20"/>
+<line class="lf" x1="609" y1="430" x2="609" y2="442"/>
+<line class="lf" x1="621" y1="430" x2="621" y2="442"/>
+<rect class="sf" x="636" y="426" width="34" height="20"/>
+<rect class="l" x="636" y="426" width="34" height="20"/>
+<line class="lf" x1="647" y1="430" x2="647" y2="442"/>
+<line class="lf" x1="659" y1="430" x2="659" y2="442"/>
+<rect class="sf" x="674" y="426" width="34" height="20"/>
+<rect class="l" x="674" y="426" width="34" height="20"/>
+<line class="lf" x1="685" y1="430" x2="685" y2="442"/>
+<line class="lf" x1="697" y1="430" x2="697" y2="442"/>
+<rect class="sf" x="560" y="404" width="34" height="20"/>
+<rect class="l" x="560" y="404" width="34" height="20"/>
+<line class="lf" x1="571" y1="408" x2="571" y2="420"/>
+<line class="lf" x1="583" y1="408" x2="583" y2="420"/>
+<rect class="sf" x="598" y="404" width="34" height="20"/>
+<rect class="l" x="598" y="404" width="34" height="20"/>
+<line class="lf" x1="609" y1="408" x2="609" y2="420"/>
+<line class="lf" x1="621" y1="408" x2="621" y2="420"/>
+<line class="lf" x1="40" y1="504" x2="760" y2="504" stroke-opacity=".14"/>
+<line class="lf" x1="120" y1="522" x2="660" y2="522" stroke-opacity=".09"/>
+<line class="l" x1="40" y1="470" x2="760" y2="470" stroke-opacity=".38"/>
+<line class="tick" x1="60" y1="486" x2="60" y2="500"/>
+<line class="tick" x1="96" y1="486" x2="96" y2="493"/>
+<line class="tick" x1="132" y1="486" x2="132" y2="493"/>
+<line class="tick" x1="168" y1="486" x2="168" y2="493"/>
+<line class="tick" x1="204" y1="486" x2="204" y2="500"/>
+<line class="tick" x1="240" y1="486" x2="240" y2="493"/>
+<line class="tick" x1="276" y1="486" x2="276" y2="493"/>
+<line class="tick" x1="312" y1="486" x2="312" y2="493"/>
+<line class="tick" x1="348" y1="486" x2="348" y2="500"/>
+<line class="tick" x1="384" y1="486" x2="384" y2="493"/>
+<line class="tick" x1="420" y1="486" x2="420" y2="493"/>
+<line class="tick" x1="456" y1="486" x2="456" y2="493"/>
+<line class="tick" x1="492" y1="486" x2="492" y2="500"/>
+<line class="tick" x1="528" y1="486" x2="528" y2="493"/>
+<line class="tick" x1="564" y1="486" x2="564" y2="493"/>
+<line class="tick" x1="600" y1="486" x2="600" y2="493"/>
+<line class="tick" x1="636" y1="486" x2="636" y2="500"/>
+<line class="tick" x1="672" y1="486" x2="672" y2="493"/>
+<line class="tick" x1="708" y1="486" x2="708" y2="493"/>
+<line class="tick" x1="744" y1="486" x2="744" y2="493"/>
+</svg>

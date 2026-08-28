@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="tr">
+<title id="tr">Painel do Radar regulatório do LIIN, com identificação e indicadores proprietários suprimidos</title>
+<defs><linearGradient id="cr" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#1B2130"/><stop offset="1" stop-color="#3E2436"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#cr)"/>
+<text x="56" y="66" font-family="Archivo,system-ui,sans-serif" font-size="13" letter-spacing="3.4" fill="#fff" fill-opacity=".5">RADAR REGULATÓRIO</text>
+<rect x="56" y="86" width="212" height="20" rx="2" fill="#0E1420"/>
+<g>
+<rect x="56" y="128" width="196" height="56" rx="4" fill="#fff" fill-opacity=".05"/>
+<text x="72" y="152" font-family="Archivo,system-ui,sans-serif" font-size="12" letter-spacing="1.6" fill="#fff" fill-opacity=".5">ÍNDICE DE RISCO</text>
+<rect x="72" y="160" width="64" height="16" rx="2" fill="#0E1420"/>
+<rect x="268" y="128" width="196" height="56" rx="4" fill="#fff" fill-opacity=".05"/>
+<text x="284" y="152" font-family="Archivo,system-ui,sans-serif" font-size="12" letter-spacing="1.6" fill="#fff" fill-opacity=".5">CUSTO DE INAÇÃO</text>
+<rect x="284" y="160" width="88" height="16" rx="2" fill="#0E1420"/>
+<rect x="480" y="128" width="196" height="56" rx="4" fill="#fff" fill-opacity=".05"/>
+<text x="496" y="152" font-family="Archivo,system-ui,sans-serif" font-size="12" letter-spacing="1.6" fill="#fff" fill-opacity=".5">EXIGÊNCIAS ABERTAS</text>
+<text x="496" y="176" font-family="Bodoni Moda,Georgia,serif" font-size="22" fill="#D6006E">37</text>
+</g>
+<line x1="56" y1="244" x2="844" y2="244" stroke="#fff" stroke-opacity=".10"/>
+<text x="56" y="228" font-family="Archivo,system-ui,sans-serif" font-size="16" fill="#fff" fill-opacity=".84">Integração ESG à gestão de riscos</text>
+<rect x="708" y="210" width="112" height="26" rx="13" fill="#D6006E" fill-opacity=".18"/>
+<text x="764" y="228" text-anchor="middle" font-family="Archivo,system-ui,sans-serif" font-size="13" fill="#D6006E">Pendente</text>
+<line x1="56" y1="296" x2="844" y2="296" stroke="#fff" stroke-opacity=".10"/>
+<text x="56" y="280" font-family="Archivo,system-ui,sans-serif" font-size="16" fill="#fff" fill-opacity=".84">Transparência de impactos da carteira</text>
+<rect x="708" y="262" width="112" height="26" rx="13" fill="#D6006E" fill-opacity=".18"/>
+<text x="764" y="280" text-anchor="middle" font-family="Archivo,system-ui,sans-serif" font-size="13" fill="#D6006E">Pendente</text>
+<line x1="56" y1="348" x2="844" y2="348" stroke="#fff" stroke-opacity=".10"/>
+<text x="56" y="332" font-family="Archivo,system-ui,sans-serif" font-size="16" fill="#fff" fill-opacity=".84">Política de investimentos revista</text>
+<rect x="708" y="314" width="112" height="26" rx="13" fill="#7C818C" fill-opacity=".18"/>
+<text x="764" y="332" text-anchor="middle" font-family="Archivo,system-ui,sans-serif" font-size="13" fill="#7C818C">Parcial</text>
+<line x1="56" y1="400" x2="844" y2="400" stroke="#fff" stroke-opacity=".10"/>
+<text x="56" y="384" font-family="Archivo,system-ui,sans-serif" font-size="16" fill="#fff" fill-opacity=".84">Certificação e adequação de alíquotas</text>
+<rect x="708" y="366" width="112" height="26" rx="13" fill="#7C818C" fill-opacity=".18"/>
+<text x="764" y="384" text-anchor="middle" font-family="Archivo,system-ui,sans-serif" font-size="13" fill="#7C818C">Atende</text>
+<rect x="56" y="420" width="300" height="18" rx="2" fill="#0E1420"/>
+<rect x="708" y="416" width="112" height="26" rx="13" fill="#0E1420"/>
+<text x="56" y="566" font-family="Archivo,system-ui,sans-serif" font-size="12" fill="#fff" fill-opacity=".38">Identificação e indicadores proprietários suprimidos</text>
+</svg>

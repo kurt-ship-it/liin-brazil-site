@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="tg">
+<title id="tg">LGIM</title>
+<defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14161C"/><stop offset="1" stop-color="#8C1443"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#cg)"/>
+<g opacity=".08" fill="none" stroke="#fff" stroke-width="1">
+<line x1="0" y1="60" x2="900" y2="60"/>
+<line x1="0" y1="120" x2="900" y2="120"/>
+<line x1="0" y1="180" x2="900" y2="180"/>
+<line x1="0" y1="240" x2="900" y2="240"/>
+<line x1="0" y1="300" x2="900" y2="300"/>
+<line x1="0" y1="360" x2="900" y2="360"/>
+<line x1="0" y1="420" x2="900" y2="420"/>
+<line x1="0" y1="480" x2="900" y2="480"/>
+<line x1="0" y1="540" x2="900" y2="540"/>
+<line x1="60" y1="0" x2="60" y2="600"/>
+<line x1="120" y1="0" x2="120" y2="600"/>
+<line x1="180" y1="0" x2="180" y2="600"/>
+<line x1="240" y1="0" x2="240" y2="600"/>
+<line x1="300" y1="0" x2="300" y2="600"/>
+<line x1="360" y1="0" x2="360" y2="600"/>
+<line x1="420" y1="0" x2="420" y2="600"/>
+<line x1="480" y1="0" x2="480" y2="600"/>
+<line x1="540" y1="0" x2="540" y2="600"/>
+<line x1="600" y1="0" x2="600" y2="600"/>
+<line x1="660" y1="0" x2="660" y2="600"/>
+<line x1="720" y1="0" x2="720" y2="600"/>
+<line x1="780" y1="0" x2="780" y2="600"/>
+<line x1="840" y1="0" x2="840" y2="600"/></g>
+<line x1="64" y1="76" x2="212" y2="76" stroke="#D6006E" stroke-width="4"/>
+<text x="64" y="112" font-family="Archivo,system-ui,sans-serif" font-size="14" letter-spacing="3" fill="#ffffff" fill-opacity=".72">LGIM</text>
+<text x="64" y="210" font-family="Bodoni Moda,Georgia,serif" font-size="48" fill="#fff">ESG Report</text>
+<line x1="64" y1="272" x2="836" y2="272" stroke="#fff" stroke-opacity=".24"/>
+<text x="64" y="310" font-family="Archivo,system-ui,sans-serif" font-size="16" fill="#ffffff" fill-opacity=".66">Relatório global de investimentos ESG · US$ 1,8 trilhão</text>
+</svg>
