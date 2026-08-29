@@ -57,7 +57,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
       from: 'LIIN Brazil <onboarding@resend.dev>',
-        to: [process.env.CONTATO_DESTINO || 'kurt@liinbrazil.org'],
+        to: [process.env.CONTATO_DESTINO || 'institucional@liinbrazil.org'],
         reply_to: b.email,
         subject: `Filiação — ${b.instituicao} (${b.tipo})`,
         html,
@@ -67,6 +67,6 @@ export default async function handler(req, res) {
     return res.status(200).json({ ok: true });
   } catch (e) {
     console.error('Falha no envio:', e);
-    return res.status(502).json({ erro: 'Não foi possível enviar agora. Escreva para kurt@liinbrazil.org.' });
+    return res.status(502).json({ erro: 'Não foi possível enviar agora. Escreva para institucional@liinbrazil.org.' });
   }
 }
