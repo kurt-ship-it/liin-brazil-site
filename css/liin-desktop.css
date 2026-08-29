@@ -1,0 +1,8 @@
+/* ════════════════════════════════════════════════════════════════
+   LIIN BRAZIL — CAMADA VISUAL DO DESKTOP
+   Este arquivo só é aplicado em telas a partir de 1001px de largura
+   (o <link> que o carrega tem media="(min-width:1001px)").
+   Regra de trabalho: toda modificação visual da versão desktop
+   entra AQUI. Nada escrito neste arquivo tem qualquer efeito
+   na versão para smartphones.
+   ════════════════════════════════════════════════════════════════ */
