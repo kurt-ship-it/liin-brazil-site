@@ -70,3 +70,13 @@
     }finally{ btn.disabled=false; btn.textContent=rotulo; }
   });
 })();
+
+/* menu ≡ — abre e fecha o índice de páginas */
+(function(){
+  var nav = document.getElementById('nav'), bg = document.querySelector('.bg');
+  if (!nav || !bg) return;
+  bg.addEventListener('click', function(){ nav.classList.toggle('open'); });
+  nav.querySelectorAll('.menu a').forEach(function(a){
+    a.addEventListener('click', function(){ nav.classList.remove('open'); });
+  });
+})();
