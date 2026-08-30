@@ -6,3 +6,17 @@
    entra AQUI. Nada escrito neste arquivo tem qualquer efeito
    na versão para smartphones.
    ════════════════════════════════════════════════════════════════ */
+
+/* ── seção do mapa-múndi ──
+   No desktop o mapa precisa ser lido como mapa: escurecimento reduzido,
+   imagem realçada e as duas colunas de texto recuadas para a esquerda,
+   liberando a metade direita para a geografia. */
+.stmt::after{
+  background:linear-gradient(90deg,
+    rgba(15,17,22,.62) 0%,
+    rgba(15,17,22,.34) 50%,
+    rgba(15,17,22,.10) 100%)}
+.stmt>img{filter:brightness(1.75) saturate(1.06)}
+.stmt-in{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);max-width:1180px}
+.stmt h2{text-shadow:0 2px 26px rgba(10,11,15,.55)}
+.stmt .body{text-shadow:0 1px 18px rgba(10,11,15,.6)}
