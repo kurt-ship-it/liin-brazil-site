@@ -174,6 +174,15 @@ h1,h2,h3{font-weight:400;letter-spacing:-.028em;line-height:1.07}
 .prov cite{display:block;margin-top:20px;font-family:var(--sans);font-style:normal;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-70)}
 .porque .body{max-width:62ch}
 
+/* ── vídeo incorporado ──
+   Componente novo, usado nas páginas de municípios e de associações.
+   As regras ficam aqui porque valem para as duas versões; a coluna dupla
+   da faixa cinza cai para uma coluna no bloco de até 1000px, como o resto. */
+.video{position:relative;aspect-ratio:16/9;overflow:hidden;background:#0F1116}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.video-c{max-width:880px;margin:clamp(44px,5vw,72px) auto 0}
+.pull-g{display:grid;grid-template-columns:1fr 1fr;gap:var(--gut);align-items:center}
+
 /* ── roteiro da filiação ── */
 .road-s-wrap{background:#14161C}
 .road-s-wrap h2,.road-s-wrap .h-m{color:#fff}
@@ -384,6 +393,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:clamp(60px,7vw,9
   .l-unpri{height:21px}
   .svc-r,.frow{grid-template-columns:1fr;gap:10px}
   .prov-g{grid-template-columns:1fr;gap:26px}
+  .pull-g{grid-template-columns:1fr;gap:32px}
   .road-s{grid-template-columns:1fr;gap:14px}
   .road-s::after{left:0}
   .mark-ico{width:27px}
