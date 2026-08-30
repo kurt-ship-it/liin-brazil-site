@@ -80,3 +80,10 @@
     a.addEventListener('click', function(){ nav.classList.remove('open'); });
   });
 })();
+
+/* portal do filiado — acesso ainda não disponível */
+(function(){
+  var f = document.getElementById('login'), m = document.getElementById('login-msg');
+  if (!f || !m) return;
+  f.addEventListener('submit', function(e){ e.preventDefault(); m.hidden = false; });
+})();
