@@ -7,16 +7,77 @@
    na versão para smartphones.
    ════════════════════════════════════════════════════════════════ */
 
-/* ── seção do mapa-múndi ──
-   No desktop o mapa precisa ser lido como mapa: escurecimento reduzido,
-   imagem realçada e as duas colunas de texto recuadas para a esquerda,
-   liberando a metade direita para a geografia. */
+/* ── 1 · seção do mapa-múndi ──
+   Duas colunas de texto: a esquerda com corpo maior, a direita com o
+   corpo menor. A coluna da esquerda avança para a direita da tela e a
+   chamada fecha em cinco linhas, o que reduz a altura do pano de fundo. */
+.stmt{min-height:0}
 .stmt::after{
   background:linear-gradient(90deg,
-    rgba(15,17,22,.62) 0%,
-    rgba(15,17,22,.34) 50%,
-    rgba(15,17,22,.10) 100%)}
+    rgba(15,17,22,.66) 0%,
+    rgba(15,17,22,.42) 54%,
+    rgba(15,17,22,.16) 100%)}
 .stmt>img{filter:brightness(1.75) saturate(1.06)}
-.stmt-in{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);max-width:1180px}
-.stmt h2{text-shadow:0 2px 26px rgba(10,11,15,.55)}
-.stmt .body{text-shadow:0 1px 18px rgba(10,11,15,.6)}
+.stmt-in{
+  max-width:1500px;
+  grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);
+  gap:clamp(40px,3.9vw,56px);
+  padding-top:clamp(60px,5.6vw,84px);
+  padding-bottom:clamp(60px,5.6vw,84px)}
+.stmt h2{
+  max-width:none;
+  font-size:clamp(30px,3.5vw,50px);
+  line-height:1.14;
+  text-shadow:0 2px 26px rgba(10,11,15,.55)}
+.stmt .body{max-width:46ch;text-shadow:0 1px 18px rgba(10,11,15,.6)}
+
+/* ── 2 · ritmo vertical entre seções ──
+   O respiro das seções cai de até 168px para até 112px. Quando duas
+   seções de fundo branco se seguem, a de baixo perde o respiro
+   superior: a separação passa a ser dada só pela seção de cima.
+   Seções com fundo próprio (cinza ou escuro) mantêm os dois respiros. */
+.s{padding-top:clamp(72px,7vw,112px);padding-bottom:clamp(72px,7vw,112px)}
+.s.reg2{padding-top:clamp(26px,2.6vw,40px)}
+.s.login-s{padding-top:clamp(50px,5vw,80px)}
+.s:not(.reg,.reg2,.pull,.model,.cred,.geo,.ct,.cta,.road-s-wrap,.prov,.repx,.login-s,.filiacao-band)
+ + .s:not(.reg,.reg2,.pull,.model,.cred,.geo,.ct,.cta,.road-s-wrap,.prov,.repx,.login-s,.filiacao-band){
+  padding-top:0}
+
+/* ── 3 · botão "Sobre a filiação LIIN" ──
+   Sai da coluna da esquerda e passa a fechar a coluna da direita,
+   logo abaixo do parágrafo. No celular já era essa a ordem. */
+.model .two{row-gap:0}
+.model .two>h2{grid-row:1/span 2}
+.model .two>.body{grid-column:2}
+.model .two .model-cta{grid-column:2;align-self:start;margin-top:clamp(24px,2.2vw,32px)}
+
+/* ── 4 · painéis de inteligência na home ──
+   Três cartões por linha: radar de financiamento, dashboard e radar
+   regulatório. */
+.ideas{grid-template-columns:repeat(3,1fr)}
+
+/* ── 5 · faixa de credenciais em "Quem somos" ──
+   Atuação profissional e experiência em investimentos lado a lado,
+   dentro das mesmas duas linhas cinzas. */
+.lead-band{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:var(--gut);
+  align-items:start;
+  padding:clamp(26px,2.6vw,34px) 0}
+.lead-band .stats-b{margin-top:0}
+.lead-band .stats{grid-template-columns:1fr;gap:clamp(18px,1.8vw,24px)}
+.lead-band .creds ul{gap:clamp(20px,2.1vw,32px);row-gap:24px}
+.lead-band .l-lgim,.lead-band .l-pnud{height:38px}
+.lead-band .l-bid{height:23px}
+.lead-band .l-ifc{height:21px}
+.lead-band .l-unpri{height:23px}
+
+/* ── 6 · valores da faixa de impacto ──
+   No desktop a unidade aparece por extenso — "R$ 2,5 bilhões", "R$ 5,7
+   milhões". No celular fica a forma curta, definida em css/liin.css.
+   O corpo é reduzido só nesta faixa para o texto longo caber nas quatro
+   colunas. */
+.un-l{display:block}
+.un-s{display:none}
+.imp b{font-size:clamp(26px,2.15vw,42px)}
