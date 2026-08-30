@@ -61,17 +61,20 @@
    dentro das mesmas duas linhas cinzas. */
 .lead-band{
   display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);
   gap:var(--gut);
   align-items:start;
   padding:clamp(26px,2.6vw,34px) 0}
 .lead-band .stats-b{margin-top:0}
-.lead-band .stats{grid-template-columns:1fr;gap:clamp(18px,1.8vw,24px)}
-.lead-band .creds ul{gap:clamp(20px,2.1vw,32px);row-gap:24px}
-.lead-band .l-lgim,.lead-band .l-pnud{height:38px}
-.lead-band .l-bid{height:23px}
-.lead-band .l-ifc{height:21px}
-.lead-band .l-unpri{height:23px}
+/* os três números em uma linha horizontal */
+.lead-band .stats{grid-template-columns:repeat(3,1fr);gap:clamp(18px,1.6vw,26px)}
+.lead-band .stats b{font-size:clamp(22px,2.3vw,36px)}
+/* logos maiores, para terem a mesma presença visual dos números */
+.lead-band .creds ul{gap:clamp(22px,2.4vw,36px);row-gap:26px}
+.lead-band .l-lgim,.lead-band .l-pnud{height:59px}
+.lead-band .l-bid{height:35px}
+.lead-band .l-ifc{height:32px}
+.lead-band .l-unpri{height:35px}
 
 /* ── 6 · valores da faixa de impacto ──
    No desktop a unidade aparece por extenso — "R$ 2,5 bilhões", "R$ 5,7
