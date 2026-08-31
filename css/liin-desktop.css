@@ -61,20 +61,24 @@
    dentro das mesmas duas linhas cinzas. */
 .lead-band{
   display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);
+  grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);
   gap:var(--gut);
   align-items:start;
   padding:clamp(26px,2.6vw,34px) 0}
 .lead-band .stats-b{margin-top:0}
 /* os três números em uma linha horizontal */
 .lead-band .stats{grid-template-columns:repeat(3,1fr);gap:clamp(18px,1.6vw,26px)}
-.lead-band .stats b{font-size:clamp(22px,2.3vw,36px)}
+.lead-band .stats b{font-size:clamp(20px,2vw,32px)}
 /* logos maiores, para terem a mesma presença visual dos números */
-.lead-band .creds ul{gap:clamp(22px,2.4vw,36px);row-gap:26px}
+.lead-band .creds ul{row-gap:26px}   /* o espaçamento horizontal é o do arquivo base */
 .lead-band .l-lgim,.lead-band .l-pnud{height:59px}
 .lead-band .l-bid{height:35px}
 .lead-band .l-ifc{height:32px}
 .lead-band .l-unpri{height:35px}
+/* o arquivo do Banco Mundial tem margem vazia: a tinta ocupa 92% da altura.
+   A altura maior compensa, para a marca ficar do mesmo tamanho das outras. */
+.lead-band .l-worldbank{height:64px}
+.lead-band .l-fomin{height:59px}
 
 /* ── 6 · valores da faixa de impacto ──
    No desktop a unidade aparece por extenso — "R$ 2,5 bilhões", "R$ 5,7
